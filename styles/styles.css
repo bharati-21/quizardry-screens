@@ -60,10 +60,7 @@
     transition: all 0.3s ease-in-out;
     background-color: rgba(0,0,0,0.7);
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    inset: 0;
     opacity: 0;
     height: 100%;
     width: 100%;
