@@ -109,6 +109,35 @@
     -o-border-radius: var(--br-2);
 }
 
+.quiz-rules {
+    gap: var(--space-2);
+}
+
+.rule-wrapper {
+    gap: var(--space-1);
+}
+
+.rule-icon .fa-icon {
+    background-color: var(--secondary-color);
+    width: var(--space-3);
+    height: var(--space-3);
+    border-radius: var(--br-50);
+    -webkit-border-radius: var(--br-50);
+    -moz-border-radius: var(--br-50);
+    -ms-border-radius: var(--br-50);
+    -o-border-radius: var(--br-50);
+    color: var(--bg-color);
+}
+
+.rule-icon .fa-icon::before {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: var(--space-3);
+    height: var(--space-3);
+}
+
 @media screen and (min-width: 1400px) {
     .card {
         max-width: 100%;
