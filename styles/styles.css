@@ -138,6 +138,47 @@
     height: var(--space-3);
 }
 
+.question-wrapper {
+    max-width: 960px;
+    width: 100%;
+    gap: var(--space-2);
+    border: 2px solid var(--light-gray-color);
+    border-radius:var(--br-2);
+    -webkit-border-radius:var(--br-2);
+    -moz-border-radius:var(--br-2);
+    -ms-border-radius:var(--br-2);
+    -o-border-radius:var(--br-2);
+}
+
+.options-container {
+    gap: var(--space-1-5);
+    width: 100%;
+}
+
+.options-container .btn {
+    border-radius: var(--br-2);
+    -webkit-border-radius: var(--br-2);
+    -moz-border-radius: var(--br-2);
+    -ms-border-radius: var(--br-2);
+    -o-border-radius: var(--br-2);
+}
+
+.btn.btn-correct-answer {
+    background-color: var(--success-color);
+    color: var(--text-color);
+    border-color: var(--success-color);
+}
+
+.btn.btn-wrong-answer {
+    background-color: var(--error-color);
+    color: var(--text-color);
+    border-color: var(--error-color);
+}
+
+.result-display {
+    gap: var(--space-4);
+}
+
 @media screen and (min-width: 1400px) {
     .card {
         max-width: 100%;
