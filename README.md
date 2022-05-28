@@ -39,7 +39,8 @@
     Quizardry is a quiz app that tests your knowledge on Harry Potter books, The Big Bang Theory TV Show, and Indian Classical Carnatic Music.
 </p>
 <br />
-Visit <a href="https://quizardry-screens.netlify.app/">Quizardry</a> and test your skiils now! 
+Visit <a href="https://quizardry-screens.netlify.app/">Quizardry</a> and test your skiils now!
+
 ![image](https://user-images.githubusercontent.com/51514137/170826300-043e273b-1689-4248-a4f5-2769b97c7693.png)
 
 
